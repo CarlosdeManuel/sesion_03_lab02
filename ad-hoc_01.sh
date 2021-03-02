@@ -1,2 +1,4 @@
 # Ping a todos los nodos
-ansible [nodos] -m ping
+# ansible host-pattern -m module [-a 'argumentos del módulo'] [-i inventario]
+
+ansible nodos -m ping
