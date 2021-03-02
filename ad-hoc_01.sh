@@ -1,2 +1,2 @@
 # Ping a todos los nodos
-ansible localhost -m ping
+ansible [nodos] -m ping
