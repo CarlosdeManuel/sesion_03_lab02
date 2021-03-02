@@ -1,0 +1,1 @@
+# Instalaremos la paqueteria de vim en todos los nodos
