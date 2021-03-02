@@ -1,2 +1,2 @@
 # Imprimir por pantall el mensaje "Laboratorio de comandos AD-HOC" en todos los nodos
-ansible nodos -m debug -a "mesg='Laboratorio de comandos AD-HOC'"
+ansible nodos -m debug -a "msg='Laboratorio de comandos AD-HOC'"
