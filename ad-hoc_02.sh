@@ -1,2 +1,2 @@
 # Ping al nodo master
-ansible localhost -m ping
+ansible master -m ping
