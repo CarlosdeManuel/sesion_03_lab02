@@ -1,2 +1,2 @@
 # Instalaremos la paqueteria de vim en todos los nodos
-ansible nodos -m pip -a "name='vim'"
+ansible nodos -m yum -a "name='vim' state:latest"
